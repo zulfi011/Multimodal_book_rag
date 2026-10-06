@@ -1,0 +1,70 @@
+# ==============================================================================
+# Python Bytecode, Caching & Build Artifacts
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Environment Variables & Secrets (CRITICAL: Do NOT commit secrets!)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Local Data, Raw PDFs, Vector Indexes & Chat History
+# ==============================================================================
+# Raw uploaded PDF documents
+data/raw/*
+!data/raw/.gitkeep
+
+# Persistent FAISS vector indices
+data/vectorstore/*
+!data/vectorstore/.gitkeep
+
+# Extracted diagrams and figures
+data/images/*
+!data/images/.gitkeep
+
+# Saved chat transcripts and session history
+data/chats/*
+!data/chats/.gitkeep
+
+# Generic large data and model files
+*.faiss
+*.pkl
+*.pdf
+
+# ==============================================================================
+# IDE, Editor & Operating System Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

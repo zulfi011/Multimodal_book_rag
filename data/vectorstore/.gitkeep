@@ -1,0 +1,2 @@
+# Keeps data/vectorstore in git while ignoring index contents
+
