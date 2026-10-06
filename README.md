@@ -135,9 +135,9 @@ lllm_book_rag/
 ### 2. Clone Repository & Setup Virtual Environment
 
 ```bash
-# Clone your repository (replace with your repo URL)
-git clone https://github.com/<your-username>/lllm_book_rag.git
-cd lllm_book_rag
+# Clone the repository
+git clone https://github.com/zulfi011/Multimodal_book_rag.git
+cd Multimodal_book_rag
 
 # Create a virtual environment
 # On macOS / Linux:
@@ -306,7 +306,7 @@ git commit -m "feat: initial commit of LLM Book RAG Assistant"
 git branch -M main
 
 # 5. Link to your remote GitHub repository
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git remote add origin https://github.com/zulfi011/Multimodal_book_rag.git
 
 # 6. Push code to GitHub
 git push -u origin main
